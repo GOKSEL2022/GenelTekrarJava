@@ -1,4 +1,4 @@
-package Tekra01;
+package Tekrar01;
 
 import java.util.Deque;
 import java.util.LinkedList;

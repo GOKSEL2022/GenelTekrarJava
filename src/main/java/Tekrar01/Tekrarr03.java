@@ -1,6 +1,7 @@
-package Tekra01;
+package Tekrar01;
 
 import java.util.HashSet;
+import java.util.LinkedList;
 import java.util.TreeSet;
 
 public class Tekrarr03 {
@@ -27,5 +28,24 @@ public class Tekrarr03 {
 
         TreeSet<String>adlar=new TreeSet<>(isimler);
         System.out.println(adlar);
+
+        LinkedList<Integer> sayilar=new LinkedList<>();
+        sayilar.add(50);
+        sayilar.add(60);
+        sayilar.add(70);
+        sayilar.add(80);
+        sayilar.add(90);
+
+        System.out.println(sayilar);
+
+        int a=sayilar.size();
+        System.out.println(a);
+
+        sayilar.add(5,100);
+        System.out.println(sayilar);
+
+        boolean e =sayilar.contains(50);
+        System.out.println(e);
+
     }
 }
